@@ -39,11 +39,10 @@
   border-color: rgba(241, 238, 238, 0.91);
   border-radius: 5px;
   font-size: 22px;
+  outline:none;
   
 
 }
-  
-
 .ff2{
     width:370px;
     height:50px;
@@ -53,7 +52,13 @@
    border-color: rgba(241, 238, 238, 0.91);
    border-radius: 5px;
    font-size: 22px;
+   outline:none;
  }
+ input:focus {
+    border: solid 1px #1877f2;
+    box-shadow: 0 0 3px rgb(109, 160, 241);
+    
+  }
 .bbb{
     width:376px;
     height:49px;
@@ -115,5 +120,7 @@
 }
 ::placeholder{
     color:rgba(150, 148, 148, 0.91);
-   padding-left:135px;
+   text-align:right;
+   padding-right:9px;
+   
 }
