@@ -71,12 +71,21 @@
    color: white;
    font-weight: bold;
    font-size: 20px;
+   cursor: pointer;
+   overflow: hidden;
+}
+.bbb:hover{
+    background-color: #116ade;
+    border-color:#116ade;
 }
 .aaa{
     color:#1877f2;
     text-align: center;
     padding-top:15px;
    cursor:pointer;
+}
+.aaa:hover{
+    text-decoration: underline;
 }
 
 .lll{
@@ -117,6 +126,11 @@
     border-radius:6px;
     margin-left: 130px;
    margin-top:12px;
+   cursor:pointer;
+}
+.ddd:hover{
+    background-color: #2eb014;
+    border-color: #2eb014;
 }
 ::placeholder{
     color:rgba(150, 148, 148, 0.91);
